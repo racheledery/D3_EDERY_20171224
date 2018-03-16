@@ -1,0 +1,174 @@
+
+header {
+  background-color: rgb(16,0,230);
+  background-image: url(images/bg-header-02.jpg);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content {
+  background-color: rgba(192,192,192,0.3);
+  padding: 3em;
+  text-align: center;
+  color: white;
+}
+
+.header-content h1 {
+  font-size: 4em;
+  font-family: 'Chelsea Market', cursive;
+}
+
+.header-content p {
+  font-size: 1.5em;
+  font-family: 'Indie Flower', cursive;
+}
+
+
+
+#bio {
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+}
+
+#bio h1{
+  font-size: 3em;
+  font-family: sans-serif;
+  padding: 1em;
+  font-family: 'Chelsea Market', cursive;
+  color: #000000;
+}
+
+#bio p{
+  font-size: 1.2em;
+  font-family: sans-serif;
+  padding: 3em;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 25px;
+}
+
+
+
+.comp-content  img {
+  width:200px;
+  height:200px;
+  padding: 3em;
+  }
+
+#comp{
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+}
+
+#comp h1{
+  font-size: 3em;
+  font-family: sans-serif;
+  padding: 2em;
+  font-family: 'Chelsea Market', cursive;
+  color: #000000;
+}
+
+#comp h2{
+  font-size: 2em;
+  font-family: sans-serif;
+  padding: 1em;
+  font-family: 'Indie Flower', cursive;
+}
+
+#comp p{
+  font-size: 1.2em;
+  font-family: sans-serif;
+  padding: 2em;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 20px;
+}
+
+.comp-section-content {
+  display: flex;
+}
+
+.left-menu {
+  background-color: #9370DB;
+  height: 40em;
+}
+
+.left-menu:hover{
+  background-color: rgb(240, 240, 240);
+}
+
+.middle-menu {
+  background-color:	#66CDAA;
+  height: 40em;
+}
+
+.middle-menu:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+.right-menu {
+  background-color: #9370DB;
+  height: 40em;
+}
+
+.right-menu:hover{
+  background-color: rgb(240, 240, 240);
+}
+
+
+
+#portfolio{
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+}
+
+#portfolio h1{
+  font-size: 5em;
+  font-family: sans-serif;
+  padding: 2em;
+  font-family: 'Chelsea Market', cursive;
+  color: #000000;
+}
+
+.portfolio {
+justify-content: center;
+}
+
+.portfolio-content {
+max-width: 700px;
+margin : auto;
+}
+
+.portfolio-content h2{
+  font-size: 1.5em;
+  font-family: 'Londrina Solid', cursive;
+  padding: 2em;
+  color: #000000;
+}
+
+.portfolio-content img {
+  width: 100%;
+/*  width:420px;
+  height:594px; */
+}
+
+
+
+footer{
+  background-color: #9370DB;
+  padding: 1.5em;
+  line-height: 30px;
+}
+
+.address{
+  font-size: 1em;
+  font-family: 'Indie Flower', cursive;
+}
+
+.social-links{
+  font-size: 1em;
+  font-family: 'Indie Flower', cursive;
+  }
