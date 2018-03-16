@@ -8,20 +8,26 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/colorbox.css">
 
-    <script src="scripts/jquery-3.3.1.min.js"></script>
-    <script src="scripts/jquery.colorbox-min.js"></script>
+
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+      <script src="scripts/jquery-3.3.1.min.js"></script>
+      <script src="scripts/jquery.colorbox-min.js"></script>
+      <script src="scripts/jquery.lettering.js"></script>
 
 
 
   </head>
 
   <body>
+
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Chelsea+Market|Indie+Flower|Pacifico" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Londrina+Solid" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    
+
   <header>
           <div class="header-content">
             <h1>Rachel Edery</h1>
@@ -31,7 +37,7 @@
 
     <section id="bio">
 
-            <h1>Biographie</h1>
+            <h1 class="fancy_title">Biographie</h1>
 
             <div class="bio-content-block">
               <p>
@@ -92,11 +98,14 @@
 
             <div class="portfolio">
             <div class="portfolio-content">
-              <a class="gallery" href="images/sia2.jpg">
-                <a class="gallery" href="images/sia1.jpg">
-             <img src="images/sia1.jpg" alt="This is a protfolio item">
+                <a class="gallery" href="images/photo1.jpg">
+                  <a class="gallery" href="images/photo2.jpg">
+                    <a class="gallery" href="images/photo3.jpg">
+                      <a class="gallery" href="images/photo4.jpg">
+                        <a class="gallery" href="images/photo5.jpg">
+             <img src="images/photo1.jpg" alt="This is a protfolio item">
            </a>
-              <h2>#1 : carte de visite de star</h2>
+              <h2>#1 : photographie</h2>
             </div>
 
             <div class="portfolio-content">
@@ -108,8 +117,8 @@
            </div>
 
            <div class="portfolio-content">
-              <a class="gallery2" href="images/wild.jpg">
               <a class="gallery2" href="images/wild2.jpg">
+              <a class="gallery2" href="images/wild.jpg">
              <img src="images/wild.jpg" alt="This is a protfolio item">
               </a>
               <h2>#3 : création d'un abécédaire</h2>
@@ -126,8 +135,11 @@
            </div>
 
            <div class="portfolio-content">
-             <img src="images/foodtruck.jpg" alt="This is a protfolio item">
-              <h2>#6 : identité visuelle d'un foodtruck</h2>
+             <a class="gallery3" href="images/serigraphie.jpg">
+             <a class="gallery3" href="images/serigraphie2.jpg">
+             <a class="gallery3" href="images/serigraphie3.jpg">
+             <img src="images/serigraphie.jpg" alt="This is a protfolio item">
+              <h2>#6 : sérigraphie</h2>
            </div>
            </div>
 
@@ -135,6 +147,14 @@
 
 
     </ul>
+
+
+
+    <script>
+    $(document).ready(function() {
+    $(".fancy_title").lettering();
+    });
+    </script>
 
 
     <script>
@@ -148,6 +168,11 @@
     <script>
     $('a.gallery2').colorbox({rel:'gallery2'});
     </script>
+
+    <script>
+    $('a.gallery3').colorbox({rel:'gallery3'});
+    </script>
+
 
     <footer>
 
