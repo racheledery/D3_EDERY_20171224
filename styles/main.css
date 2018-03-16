@@ -29,7 +29,6 @@ header {
 }
 
 
-
 #bio {
   text-align: center;
   background-color: rgb(240, 240, 240);
@@ -42,6 +41,57 @@ header {
   font-family: 'Chelsea Market', cursive;
   color: #000000;
 }
+
+.char1 {
+  color: red;
+  font-size: 1em;
+}
+
+.char2 {
+  color: black;
+  font-size: 2em;
+}
+
+.char3 {
+  color: green;
+  font-size: 1em;
+}
+
+.char4 {
+  color: red;
+  font-size: 2em;
+}
+
+.char5 {
+  color: blue;
+  font-size: 2em;
+}
+
+.char6 {
+  color: yellow;
+  font-size: 1em;
+}
+
+.char7 {
+  color: black;
+  font-size: 2em;
+}
+
+.char8 {
+  color: red;
+  font-size: 1em;
+}
+
+.char9 {
+  color: blue;
+  font-size: 2em;
+}
+
+.char10 {
+  color: black;
+  font-size: 1em;
+}
+
 
 #bio p{
   font-size: 1.2em;
